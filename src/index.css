@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .wrap{
+    @apply container m-auto px-5 max-w-[1200px] ;
+  }
+  .heading{
+    @apply font-bold text-3xl   ;
+  }
+}
+
+body{
+  font-family:  "Exo 2", sans-serif !important;
+}

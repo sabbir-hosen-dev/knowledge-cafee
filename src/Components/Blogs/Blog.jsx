@@ -2,7 +2,7 @@ import { BiBookmark } from "react-icons/bi";
 import PropTypes from "prop-types"
 
 
-function Blog({blog}) {
+function Blog({blog, handleBookMark, handleRead}) {
   const {author_image,author_name,blog_image,hashtags,post_date,title,read_time} = blog
   return (
     <div className="mt-5">
@@ -22,8 +22,8 @@ function Blog({blog}) {
         </div>
 
         <div className="flex gap-2 items-center">
-          <p className="text-gray-400">{read_time} read</p>
-          <BiBookmark className="text-gray-400 text-xl cursor-pointer duration-300 transition-all hover:text-green-400" />
+          <p className="text-gray-400">{read_time} min read</p>
+          <BiBookmark  onClick={() =>  handleBookMark(blog)} className="text-gray-400 text-xl cursor-pointer duration-300 transition-all hover:text-green-400" />
         </div>
       </div>
 
@@ -34,7 +34,7 @@ function Blog({blog}) {
         <small className="text-gray-400">{hashtags[1]}</small>
       </div>
 
-      <a href="" className="inline-block my-2 mb-5  font-bold text-[#6047EC] underline  ">Mark as read</a>
+      <div href="" onClick={() =>  handleRead(blog)} className="inline-block my-2 cursor-pointer duration-300 hover:text-blue-300 transition-all mb-5  font-bold text-[#6047EC] underline  ">Mark as read</div>
 
       <hr />
     </div>
@@ -44,5 +44,7 @@ function Blog({blog}) {
 export default Blog
 
 Blog.propTypes = {
-  blog : PropTypes.object.isRequired
+  blog : PropTypes.object.isRequired,
+  handleBookMark: PropTypes.func.isRequired,
+  handleRead: PropTypes.func.isRequired,
 }

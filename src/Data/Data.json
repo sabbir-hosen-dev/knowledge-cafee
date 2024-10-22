@@ -6,7 +6,7 @@
     "author_name": "John Doe",
     "author_image": "/images/boy1.png",
     "post_date": "2024-10-15",
-    "read_time": "6 min",
+    "read_time": "6",
     "hashtags": ["#AI", "#FutureTech"],
     "blog_image": "/images/4.jpg"
   },
@@ -17,7 +17,7 @@
     "author_name": "Jane Smith",
     "author_image": "/images/boy2.png",
     "post_date": "2024-09-28",
-    "read_time": "4 min",
+    "read_time": "4",
     "hashtags": ["#RemoteWork", "#Productivity"],
     "blog_image": "/images/2.png"
   },
@@ -28,8 +28,19 @@
     "author_name": "Mike Johnson",
     "author_image": "/images/girl2.jpg",
     "post_date": "2024-08-10",
-    "read_time": "8 min",
+    "read_time": "8",
     "hashtags": ["#Blogging", "#DigitalMarketing"],
     "blog_image": "/images/3.png"
+  },
+  {
+    "id": 43443,
+    "title": "How to Lrean JavaScript in  2024",
+    "description": "Step-by-step guide on launching a blog that attracts readers and generates income.",
+    "author_name": "Mike Johnson",
+    "author_image": "/images/girl1.jpg",
+    "post_date": "2024-08-10",
+    "read_time": "8",
+    "hashtags": ["#Blogging", "#DigitalMarketing"],
+    "blog_image": "/images/4.jpg"
   }
 ]

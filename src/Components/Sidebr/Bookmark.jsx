@@ -1,11 +1,19 @@
+import PropTypes from "prop-types";
 
-
-function Bookmark() {
+function Bookmark({data}) {
   return (
     <div className="bg-white rounded-md p-3 mt-3">
-      <small className="font-bold">Lorem ipsum adipisicing elit. Impedit, ratione!</small>
+      <small className="font-bold">
+        {data.title}
+      </small>
     </div>
-  )
+  );
 }
 
-export default Bookmark
+export default Bookmark;
+
+
+Bookmark.propTypes = {
+  data : PropTypes.object.isRequired,
+}
+

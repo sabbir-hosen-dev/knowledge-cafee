@@ -33,7 +33,7 @@ function App() {
         <Navber />
       </header>
       <main className='grid grid-cols-12 gap-3 wrap'>
-        <Blogs  handleRead={handleRead} handleBookMark={handleBookMark} />
+        <Blogs bookMark={bookMark}  handleRead={handleRead} handleBookMark={handleBookMark} />
         <SideBer read={read} bookMark={bookMark} />
       </main>
     </>

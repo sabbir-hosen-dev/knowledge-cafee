@@ -1,0 +1,35 @@
+[
+  {
+    "id": 13455,
+    "title": "The Future of AI: What to Expect in 2025",
+    "description": "An in-depth analysis of the major trends and advancements in artificial intelligence expected by 2025.",
+    "author_name": "John Doe",
+    "author_image": "/images/boy1.png",
+    "post_date": "2024-10-15",
+    "read_time": "6 min",
+    "hashtags": ["#AI", "#FutureTech"],
+    "blog_image": "/images/4.jpg"
+  },
+  {
+    "id": 23443,
+    "title": "5 Tips for Effective Remote Work",
+    "description": "Maximize productivity while working from home with these essential remote work tips.",
+    "author_name": "Jane Smith",
+    "author_image": "/images/boy2.png",
+    "post_date": "2024-09-28",
+    "read_time": "4 min",
+    "hashtags": ["#RemoteWork", "#Productivity"],
+    "blog_image": "/images/2.png"
+  },
+  {
+    "id": 3343,
+    "title": "How to Start a Successful Blog in 2024",
+    "description": "Step-by-step guide on launching a blog that attracts readers and generates income.",
+    "author_name": "Mike Johnson",
+    "author_image": "/images/girl2.jpg",
+    "post_date": "2024-08-10",
+    "read_time": "8 min",
+    "hashtags": ["#Blogging", "#DigitalMarketing"],
+    "blog_image": "/images/3.png"
+  }
+]

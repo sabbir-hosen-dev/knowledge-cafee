@@ -4,10 +4,11 @@ function Navber() {
     <nav className="wrap">
       <div className="flex justify-between items-center  border-b ">
         <h4 className="heading">Knowladge Cafe</h4>
-        <img className="my-2" src={profileImg} alt="" />
+        <img className="my-3" src={profileImg} alt="" />
       </div>
     </nav>
   );
 }
 
 export default Navber;
+
